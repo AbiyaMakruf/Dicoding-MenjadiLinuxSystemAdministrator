@@ -1,0 +1,15 @@
+    1  man free
+    2  free -m
+    3  man df
+    4  df -BG
+    5  df -x tmpfs --output=source,pcent
+    6  mkdir -p ~/submission-pertama
+    7  cd ~/submission-pertama
+    8  nano script.sh
+    9  chmod +x script.sh
+   10  ./script.sh
+   11  cat script.sh
+   12  ./script.sh
+   13  history > history.txt
+   14  zip submission1-linux-abiyamakruf.zip script.sh history.txt
+   15  ls -la

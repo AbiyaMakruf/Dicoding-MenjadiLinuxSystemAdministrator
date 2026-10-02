@@ -1,0 +1,23 @@
+Oct 03 00:30:47 ABIYA-PC systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Oct 03 00:30:47 ABIYA-PC sshd[477]: Server listening on 0.0.0.0 port 22.
+Oct 03 00:30:47 ABIYA-PC sshd[477]: Server listening on :: port 22.
+Oct 03 00:30:47 ABIYA-PC systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Oct 03 00:30:49 ABIYA-PC sshd[483]: Accepted password for dicoding from 127.0.0.1 port 51026 ssh2
+Oct 03 00:30:49 ABIYA-PC sshd[483]: pam_unix(sshd:session): session opened for user dicoding(uid=1002) by dicoding(uid=0)
+Oct 03 00:30:49 ABIYA-PC sshd[483]: pam_unix(sshd:session): session closed for user dicoding
+Oct 03 00:30:49 ABIYA-PC sshd[533]: Accepted publickey for dicoding from 127.0.0.1 port 51036 ssh2: RSA SHA256:cMitT3xpMO39s0eVY3RbD+3OsaTkCeO9Yba3vntMGEI
+Oct 03 00:30:49 ABIYA-PC sshd[533]: pam_unix(sshd:session): session opened for user dicoding(uid=1002) by dicoding(uid=0)
+Oct 03 00:30:49 ABIYA-PC sshd[533]: pam_unix(sshd:session): session closed for user dicoding
+Oct 03 00:30:49 ABIYA-PC sshd[477]: Received signal 15; terminating.
+Oct 03 00:30:49 ABIYA-PC systemd[1]: Stopping ssh.service - OpenBSD Secure Shell server...
+Oct 03 00:30:49 ABIYA-PC systemd[1]: ssh.service: Deactivated successfully.
+Oct 03 00:30:49 ABIYA-PC systemd[1]: Stopped ssh.service - OpenBSD Secure Shell server.
+Oct 03 00:30:49 ABIYA-PC systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Oct 03 00:30:49 ABIYA-PC sshd[611]: Server listening on 0.0.0.0 port 2000.
+Oct 03 00:30:49 ABIYA-PC sshd[611]: Server listening on :: port 2000.
+Oct 03 00:30:49 ABIYA-PC systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Oct 03 00:30:50 ABIYA-PC sshd[616]: Accepted publickey for dicoding from 127.0.0.1 port 60198 ssh2: RSA SHA256:cMitT3xpMO39s0eVY3RbD+3OsaTkCeO9Yba3vntMGEI
+Oct 03 00:30:50 ABIYA-PC sshd[616]: pam_unix(sshd:session): session opened for user dicoding(uid=1002) by dicoding(uid=0)
+Oct 03 00:30:50 ABIYA-PC sshd[616]: pam_unix(sshd:session): session closed for user dicoding
+Oct 03 00:30:50 ABIYA-PC sshd[652]: Connection closed by authenticating user dicoding 127.0.0.1 port 60212 [preauth]
+Oct 03 00:30:51 ABIYA-PC sshd[657]: Connection closed by authenticating user root 127.0.0.1 port 60222 [preauth]
