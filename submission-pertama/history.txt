@@ -1,9 +1,5 @@
-    1  man --help
-    2  free -m
-    3  man df
-    4  df -BG
-    5  df -x tmpfs --output=source,pcent
-    6  cd "/mnt/c/Users/abiyamf/Documents/Code Program/Dicoding/Dicoding-MenjadiLinuxSystemAdministrator/submission-pertama"
-    7  chmod +x script.sh
-    8  ./script.sh
-    9  history > history.txt
+    1  nano script.sh
+    2  ls -la
+    3  chmod +x script.sh
+    4  ./script.sh
+    5  history > history.txt
