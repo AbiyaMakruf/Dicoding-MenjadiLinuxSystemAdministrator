@@ -56,7 +56,7 @@ Dicoding-MenjadiLinuxSystemAdministrator/
 
 | Proyek | Kriteria Wajib | Saran Tambahan (Bintang 5) | Status |
 | :--- | :--- | :--- | :---: |
-| **Submission 1 (Shell Scripting)** | 1. Memeriksa memori dalam Megabytes (`free --mega`)<br>2. Memeriksa kapasitas disk dalam Gigabytes (`df -BG`)<br>3. Filter kolom `Filesystem` & `Use%` tanpa `tmpfs` (`df -x tmpfs --output=source,pcent`)<br>4. Output rapi (teks keterangan, jeda `sleep 1`, baris baru)<br>5. Melampirkan `history.txt` | 1. Komentar deskriptif di setiap baris perintah skrip<br>2. Variabel `name="Abiya Makruf"` & cetak `'Hello, my name is ${name}'`<br>3. Perulangan `while` berjalan sebanyak 3 kali | **Terpenuhi (Bintang 5)** |
+| **Submission 1 (Shell Scripting)** | 1. Memeriksa memori dalam Megabytes (`free --mega`)<br>2. Memeriksa kapasitas disk dalam Gigabytes (`df -BGB`)<br>3. Filter kolom `Filesystem` & `Use%` tanpa `tmpfs` (`df -x tmpfs --output=source,pcent`)<br>4. Output rapi (teks keterangan, jeda `sleep 1`, baris baru)<br>5. Melampirkan `history.txt` | 1. Komentar deskriptif di setiap baris perintah skrip<br>2. Variabel `name="Abiya Makruf"` & cetak `'Hello, my name is ${name}'`<br>3. Perulangan `while` berjalan sebanyak 3 kali | **Terpenuhi (Bintang 5)** |
 | **Submission 2 (Konfigurasi SSH Server)** | 1. User baru `dicoding` dengan Full Name `Dicoding Indonesia`<br>2. Login SSH via password ke `localhost`<br>3. Key pair & salin public key (`ssh-copy-id`), remote login via public key<br>4. Hardening SSH: Port `2000`, hanya public key, nonaktifkan password & root login<br>5. Login sukses via port 2000 & tercatat pada log<br>6. Melampirkan `daftar-user.txt`, `log-ssh.txt`, `sshd_config` | 1. Berkas log SSH format JSON (`log-ssh.json`)<br>2. Berkas terenkripsi `daftar-user.txt.gpg`<br>3. Skrip otomatisasi `hapus-log.sh` (`journalctl --disk-usage`, `--vacuum-size=10M`, jeda, komentar, loop `while`) | **Terpenuhi (Bintang 5)** |
 
 ---
@@ -69,7 +69,7 @@ Sebagai seorang Linux System Administrator, lonjakan trafik pada server web peru
 ### Implementasi Script & Kriteria
 Skrip `submission-pertama/script.sh` mengimplementasikan seluruh ketentuan:
 1. **Menampilkan Ukuran Memori:** Menggunakan perintah `free --mega` (satuan Megabytes standar desimal/SI).
-2. **Menampilkan Kapasitas Filesystem:** Menggunakan perintah `df -BG` (satuan Gigabytes).
+2. **Menampilkan Kapasitas Filesystem:** Menggunakan perintah `df -BGB` (satuan Gigabytes standar desimal/SI).
 3. **Menampilkan Filter Kolom Disk:** Menggunakan perintah `df -x tmpfs --output=source,pcent` untuk hanya menampilkan kolom `Filesystem` dan `Use%` serta mengecualikan seluruh `tmpfs`.
 4. **Format & Kerapian Tampilan:**
    - Setiap perintah diawali teks pengantar/keterangan yang jelas.

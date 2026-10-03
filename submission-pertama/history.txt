@@ -1,8 +1,9 @@
     1  man free
     2  free --mega
-    3  df -BG
-    4  df -x tmpfs --output=source,pcent
-    5  nano script.sh
-    6  chmod +x script.sh
-    7  ./script.sh
-    8  history > history.txt
+    3  man df
+    4  df -BGB
+    5  df -x tmpfs --output=source,pcent
+    6  nano script.sh
+    7  chmod +x script.sh
+    8  ./script.sh
+    9  history > history.txt

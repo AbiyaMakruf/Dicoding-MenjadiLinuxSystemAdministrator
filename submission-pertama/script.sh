@@ -2,7 +2,6 @@
 
 # ==============================================================================
 # Script Pengecekan Memori dan Ruang Disk Sistem Linux
-# Dibuat untuk: Submission 1 - Proyek Shell Scripting (Dicoding)
 # Nama: Abiya Makruf
 # ==============================================================================
 
@@ -40,8 +39,8 @@ while [ $counter -le 3 ]; do
 
     # Menampilkan deskripsi singkat sebelum menjalankan perintah pengecekan kapasitas disk
     echo "2. Menampilkan penggunaan ruang disk pada filesystem dalam satuan Gigabytes:"
-    # Menjalankan perintah df dengan opsi -BG untuk menampilkan ruang penyimpanan dalam GB
-    df -BG
+    # Menjalankan perintah df dengan opsi -BGB untuk menampilkan ruang penyimpanan dalam Gigabytes
+    df -BGB
     # Menambahkan jeda waktu selama 1 detik sebelum beralih ke perintah berikutnya
     sleep 1
     # Menampilkan baris kosong sebagai pemisah antar output perintah
