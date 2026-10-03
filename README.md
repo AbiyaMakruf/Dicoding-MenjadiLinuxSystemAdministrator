@@ -15,11 +15,13 @@ Repositori ini berisi seluruh proyek submission untuk kelas **Menjadi Linux Syst
 - [Struktur Repositori](#struktur-repositori)
 - [Ringkasan Kriteria Penilaian (Bintang 5)](#ringkasan-kriteria-penilaian-bintang-5)
 - [Submission Pertama: Proyek Shell Scripting](#submission-pertama-proyek-shell-scripting)
+  - [Bukti Penilaian Bintang 5](#bukti-penilaian-bintang-5-submission-1)
   - [Deskripsi Skenario](#deskripsi-skenario-submission-1)
   - [Implementasi Script & Kriteria](#implementasi-script--kriteria)
   - [Penerapan Saran Bintang 5](#penerapan-saran-bintang-5-submission-1)
   - [Daftar Berkas Submission 1](#daftar-berkas-submission-1)
 - [Submission Kedua: Proyek Konfigurasi SSH Server](#submission-kedua-proyek-konfigurasi-ssh-server)
+  - [Bukti Penilaian Bintang 5](#bukti-penilaian-bintang-5-submission-2)
   - [Deskripsi Skenario](#deskripsi-skenario-submission-2)
   - [Alur Konfigurasi SSH Server](#alur-konfigurasi-ssh-server)
   - [Penerapan Saran Bintang 5](#penerapan-saran-bintang-5-submission-2)
@@ -34,20 +36,18 @@ Repositori ini berisi seluruh proyek submission untuk kelas **Menjadi Linux Syst
 ```text
 Dicoding-MenjadiLinuxSystemAdministrator/
 ├── README.md                                    # Dokumentasi komprehensif proyek
-├── submission-pertama/                          # Proyek 1: Shell Scripting
-│   ├── instruksi_submission.md                  # Panduan kriteria submission 1
+├── submission-pertama/                          # Proyek 1: Shell Scripting (Bintang 5)
 │   ├── script.sh                                # Skrip monitoring memori dan filesystem
 │   ├── history.txt                              # Rekaman riwayat perintah shell (history)
-│   └── submission1-linux-abiyamakruf.zip        # Berkas ZIP siap unggah ke platform Dicoding
-└── submission-kedua/                            # Proyek 2: Konfigurasi SSH Server
-    ├── instruksi_submission.md                  # Panduan kriteria submission 2
+│   └── nilai.png                                # Bukti kelulusan & penilaian Bintang 5 Dicoding
+└── submission-kedua/                            # Proyek 2: Konfigurasi SSH Server (Bintang 5)
     ├── daftar-user.txt                          # Daftar seluruh pengguna pada sistem Linux
     ├── daftar-user.txt.gpg                      # Hasil enkripsi simetris GPG daftar-user.txt
     ├── sshd_config                              # Salinan konfigurasi SSH hardened (port 2000)
     ├── log-ssh.txt                              # Entri rekaman log autentikasi SSH
     ├── log-ssh.json                             # Rekaman log SSH dalam format JSON terstruktur
     ├── hapus-log.sh                             # Skrip pemantauan & pembersihan log journalctl
-    └── submission2-linux-abiyamakruf.zip        # Berkas ZIP siap unggah ke platform Dicoding
+    └── nilai.png                                # Bukti kelulusan & penilaian Bintang 5 Dicoding
 ```
 
 ---
@@ -62,6 +62,10 @@ Dicoding-MenjadiLinuxSystemAdministrator/
 ---
 
 ## Submission Pertama: Proyek Shell Scripting
+
+### Bukti Penilaian Bintang 5 (Submission 1)
+
+![Bukti Penilaian Submission 1](submission-pertama/nilai.png)
 
 ### Deskripsi Skenario Submission 1
 Sebagai seorang Linux System Administrator, lonjakan trafik pada server web perusahaan menyebabkan memori dan ruang disk rawan penuh. Sebelum dilakukan skalabilitas jangka panjang, dibuat shell script otomatis (`script.sh`) untuk memeriksa kondisi sistem secara berkala dan terdokumentasi dalam `history.txt`.
@@ -84,11 +88,15 @@ Skrip `submission-pertama/script.sh` mengimplementasikan seluruh ketentuan:
 ### Daftar Berkas Submission 1
 - [script.sh](file:///c:/Users/abiyamf/Documents/Code%20Program/Dicoding/Dicoding-MenjadiLinuxSystemAdministrator/submission-pertama/script.sh): Berkas shell script utama.
 - [history.txt](file:///c:/Users/abiyamf/Documents/Code%20Program/Dicoding/Dicoding-MenjadiLinuxSystemAdministrator/submission-pertama/history.txt): Riwayat eksekusi perintah terminal shell.
-- `submission1-linux-abiyamakruf.zip`: Berkas arsip kompresi siap submit.
+- [nilai.png](file:///c:/Users/abiyamf/Documents/Code%20Program/Dicoding/Dicoding-MenjadiLinuxSystemAdministrator/submission-pertama/nilai.png): Bukti verifikasi penilaian Bintang 5 Dicoding.
 
 ---
 
 ## Submission Kedua: Proyek Konfigurasi SSH Server
+
+### Bukti Penilaian Bintang 5 (Submission 2)
+
+![Bukti Penilaian Submission 2](submission-kedua/nilai.png)
 
 ### Deskripsi Skenario Submission 2
 Server baru telah dipasang untuk melayani trafik pengguna 24/7. Agar administrator dapat memantau dan mengelola server secara aman dari jarak jauh, dikonfigurasikan layanan SSH Server dengan standar pengerasan keamanan (*security hardening*) tingkat tinggi.
@@ -165,7 +173,7 @@ sequenceDiagram
 - [log-ssh.txt](file:///c:/Users/abiyamf/Documents/Code%20Program/Dicoding/Dicoding-MenjadiLinuxSystemAdministrator/submission-kedua/log-ssh.txt): Log autentikasi SSH teks biasa.
 - [log-ssh.json](file:///c:/Users/abiyamf/Documents/Code%20Program/Dicoding/Dicoding-MenjadiLinuxSystemAdministrator/submission-kedua/log-ssh.json): Log autentikasi SSH format JSON.
 - [hapus-log.sh](file:///c:/Users/abiyamf/Documents/Code%20Program/Dicoding/Dicoding-MenjadiLinuxSystemAdministrator/submission-kedua/hapus-log.sh): Skrip otomatisasi pembersihan log sistem.
-- `submission2-linux-abiyamakruf.zip`: Berkas arsip kompresi siap submit.
+- [nilai.png](file:///c:/Users/abiyamf/Documents/Code%20Program/Dicoding/Dicoding-MenjadiLinuxSystemAdministrator/submission-kedua/nilai.png): Bukti verifikasi penilaian Bintang 5 Dicoding.
 
 ---
 
