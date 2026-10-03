@@ -1,5 +1,8 @@
-    1  nano script.sh
-    2  ls -la
-    3  chmod +x script.sh
-    4  ./script.sh
-    5  history > history.txt
+    1  man free
+    2  free --mega
+    3  df -BG
+    4  df -x tmpfs --output=source,pcent
+    5  nano script.sh
+    6  chmod +x script.sh
+    7  ./script.sh
+    8  history > history.txt

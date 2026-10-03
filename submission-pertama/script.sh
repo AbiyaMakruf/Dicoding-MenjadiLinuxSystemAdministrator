@@ -31,8 +31,8 @@ while [ $counter -le 3 ]; do
 
     # Menampilkan deskripsi singkat sebelum menjalankan perintah pengecekan memori
     echo "1. Menampilkan ukuran memori pada sistem dalam satuan Megabytes:"
-    # Menjalankan perintah free dengan opsi -m untuk menampilkan ukuran memori dalam MB
-    free -m
+    # Menjalankan perintah free dengan opsi --mega untuk menampilkan ukuran memori dalam Megabytes
+    free --mega
     # Menambahkan jeda waktu selama 1 detik sebelum beralih ke perintah berikutnya
     sleep 1
     # Menampilkan baris kosong sebagai pemisah antar output perintah
